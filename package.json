@@ -1,0 +1,36 @@
+{
+  "name": "systemorderservice",
+  "version": "1.0.0",
+  "description": "system of ordem service for office mechanic",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/solutionsTech10/systemOrderService.git"
+  },
+  "keywords": [
+    "OS",
+    "ordem",
+    "de",
+    "serviço"
+  ],
+  "author": "IsaacDSC, Matheus Mendes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/solutionsTech10/systemOrderService/issues"
+  },
+  "homepage": "https://github.com/solutionsTech10/systemOrderService#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "express-flash": "^0.0.2",
+    "express-handlebars": "^5.2.1",
+    "express-session": "^1.17.1",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.2.5",
+    "sequelize": "^6.5.1"
+  }
+}
